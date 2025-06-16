@@ -1,0 +1,14 @@
+#footer{
+    width: 90%;
+    margin: 80px auto 30px;
+    padding: 48px 0px 0px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer-container p{
+    font-size: 14px;
+    color: #9ca3af;
+}
