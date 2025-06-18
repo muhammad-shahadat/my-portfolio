@@ -220,14 +220,14 @@ const Home = () => {
                         </li>
                         <li className="item-list resume-list">
                             👁️
-                            <a href="" target="_blank" className="resume-link view-resume">
+                            <a href="/resume/shahadat_hossain_resume.pdf" target="_blank" className="resume-link view-resume">
                                 View Resume
                             </a>
                              
                         </li>
                         <li className="resume-list item-list">
                             📥
-                            <a href="" id="resume" className="resume-link download-resume" download="">   
+                            <a href="/resume/shahadat_hossain_resume.pdf" id="resume" className="resume-link download-resume" download="md_shahadat_hossain_resume" rel="noopener noreferrer">  
                                Download Resume
 
                             </a>

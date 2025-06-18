@@ -306,9 +306,10 @@ small device
     .hero-right{
         gap: 20px;
         padding: 24px 0 0;
+        height: auto;
     }
     .hero-des h1{
-        font-size: 45px;
+        font-size: 40px;
     }
 
     
