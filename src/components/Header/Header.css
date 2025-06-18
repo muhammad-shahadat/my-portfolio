@@ -19,8 +19,19 @@ nav{
     position: relative;
 }
 .logo{
-    color: #60a5fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #FDFCFC;
+    box-shadow: 0 0 2px 0 #fff;
+    
+}
+
 .navbar-menu .menu-list{
     display: flex;
     align-items: center;
