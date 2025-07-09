@@ -117,9 +117,9 @@ const Home = () => {
                         </p>
                     </div>
 
-                    <div className="upcoming-project">
+                    {/* <div className="upcoming-project">
 
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
