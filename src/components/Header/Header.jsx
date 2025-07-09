@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import "./Header.css";
 import  {FaBars } from "react-icons/fa";
-import navLogoMs from "../../assets/images/nav-logo_ms.png";
 import navLogo from "../../assets/images/nav-logo.png";
 
 

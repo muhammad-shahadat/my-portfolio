@@ -125,37 +125,37 @@ projects section
     box-shadow: 2px 0px 1px 0px #ddd;
 
 }
-.projects-right .e-commerce{
+.projects-right .project-css{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
 
-.e-commerce a.name-link{
+.project-css a.name-link{
     font-size: 18px;
     color: #0f172a;
     font-weight: 600;
     
 }
-.e-commerce a.name-link:hover{
+.project-css a.name-link:hover{
     text-decoration: underline;
 }
-.e-commerce p.description{
+.project-css p.description{
     font-size: 18px;
     color: #475569;
     text-align: justify;
 }
-.e-commerce a.github-link, .e-commerce a.netlify-link{
+.project-css a.github-link, .project-css a.netlify-link{
     color: #00007F;
     font-size: 17px;
     font-weight: 400;
 }
 
-.e-commerce a.netlify-link:hover{
+.project-css a.netlify-link:hover{
     text-decoration: underline;
 }
-.e-commerce a.github-link:hover{
+.project-css a.github-link:hover{
     text-decoration: underline;
 }
 

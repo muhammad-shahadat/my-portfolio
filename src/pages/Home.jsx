@@ -1,5 +1,5 @@
 import React from 'react';
-import heroLogo from "../assets/images/hero-logo.jpg";
+import heroLogo from "../assets/images/hero-logo.png";
 import "./css/Home.css";
 
 
@@ -66,7 +66,7 @@ const Home = () => {
                     <h2>PROJECTS</h2>
                 </div>
                 <div className="projects-right">
-                    <div className="e-commerce">
+                    <div className="e-commerce project-css">
                         
                         <h3 className="name">
                             <a className="name-link" href="https://frontend-ecommerce-project.netlify.app/" target="_blank" >
@@ -89,9 +89,38 @@ const Home = () => {
                             </a>
                         </h3>
                     </div>
-                    <div className="upcoming-project">
+
+                    <div className="landing-page project-css">
                         
+                        <h3 className="name">
+                            <a className="name-link" href="https://react-landing-page-shahadatian.netlify.app/" target="_blank" >
+                                React Landing Page
+
+                            </a>
+                        </h3>
+                        
+                        <p className="description">
+                            A modern and responsive langing page built with React, Vite, Tailwind CSS and custom CSS. Coded from a figam file shared in a youtube tutorial also help of the tutor.Features include reusable components, slick carousel for card slider.
+                        </p>
+                        <h3 className="netlify">
+                            <a href="https://react-landing-page-shahadatian.netlify.app/" className="netlify-link" target="_blank" >
+                                🔗 Live Demo
+                            </a>
+                        </h3>
+                        <h3 className="github">
+                            <a href="https://github.com/muhammad-shahadat/react-landing-page" className="github-link" target="_blank" >
+                                💻 GitHub Repository
+                            </a>
+                        </h3>
+                        <p className="note" style={{color: "#0f172a"}} >
+                            *Note: Design credit goes to the original Figma creator. This was a practice implementation.*
+                        </p>
                     </div>
+
+                    <div className="upcoming-project">
+
+                    </div>
+
                 </div>
             </div>
 
@@ -137,6 +166,9 @@ const Home = () => {
 
                             <li className="item-list">
                                 React.js
+                            </li>
+                            <li className="item-list">
+                                Tailwind CSS
                             </li>
                             <li className="item-list">
                                 Bootstrap
