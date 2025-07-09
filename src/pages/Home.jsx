@@ -195,6 +195,9 @@ const Home = () => {
                             <li className="item-list">
                                 VS Code
                             </li>
+                            <li className="item-list">
+                                Figma
+                            </li>
                         </ul>
                     </div>
 
