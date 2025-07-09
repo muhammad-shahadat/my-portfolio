@@ -53,7 +53,7 @@ const Home = () => {
                 </div>
                 <div className="about-right">
                     <p>
-                        I'm a frontend developer and Software Engineering student at Daffodil International University, Bangladesh. I build responsive, user-friendly websites using React, JavaScript, HTML, CSS, and Bootstrap. I’ve completed several hands-on projects, all deployed on Netlify and hosted on GitHub. I’m working toward full-stack development and open to freelance and remote opportunities.
+                        I'm a frontend developer and Software Engineering student at Daffodil International University, Bangladesh. I build responsive, user-friendly websites using React, JavaScript, HTML, CSS, Tailwind CSS and Bootstrap. I’ve completed several hands-on projects, all deployed on Netlify and hosted on GitHub. I’m working toward full-stack development and open to freelance and remote opportunities.
                     </p>
                 </div>
             </div>
