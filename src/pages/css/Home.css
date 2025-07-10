@@ -213,6 +213,82 @@ skills section
     color: #475569;
 }
 
+/*=============================================
+resume section
+===============================================*/
+#resume{
+    width: 90%;
+    margin: 20px auto 0;
+    padding: 75px 0px 0px;
+}
+.resume-container{
+    display: flex;
+    align-items: first baseline;
+    justify-content: flex-start;
+
+}
+.resume-left{
+    width: 150px;
+}
+.resume-left h2{
+    width: 150px; 
+    font-size: 14px;
+    color: #475569;
+    font-weight: 500;
+}
+.resume-right{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 10px 10px 80px;
+    background-color: #fff;
+    box-shadow: 2px 0px 1px 0px #ddd;
+}
+
+.resume-right ul.resume-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ul.resume-item li.item-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ul.resume-item li.item-list a{
+    font-size: 18px;
+    color: #00007F;
+}
+
+a.resume-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 180px;
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 15px !important;
+    transition: all 0.4s;
+}
+a.view-resume{
+    background: #007bff;
+}
+a.view-resume:hover{
+    background: #0056b3;
+}
+a.download-resume{
+    background-color: #28a745;
+}
+a.download-resume:hover{
+    background: #1e7e34;
+}
+
+
+
+
 /*===========================================
 contacts section
 =============================================*/
@@ -264,31 +340,6 @@ ul.contact-item li.item-list{
 ul.contact-item li.item-list a{
     font-size: 18px;
     color: #00007F;
-}
-
-
-a.resume-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35px;
-    width: 180px;
-    border-radius: 5px;
-    color: #fff !important;
-    font-size: 15px !important;
-    transition: all 0.4s;
-}
-a.view-resume{
-    background: #007bff;
-}
-a.view-resume:hover{
-    background: #0056b3;
-}
-a.download-resume{
-    background-color: #28a745;
-}
-a.download-resume:hover{
-    background: #1e7e34;
 }
 
 
@@ -365,6 +416,23 @@ small device
     .skill-category li.item-list{
         font-style: 17px;
     }
+
+    /*========================================
+    resume section
+    =============================================*/
+    .resume-container{
+        flex-direction: column;
+
+    }
+    .resume-left{
+        padding: 0px 0px 24px;;
+    }
+    
+    .resume-right{
+        padding: 10px 10px 10px 0px;
+    }
+        
+
 
     /*===========================================
     contacts section

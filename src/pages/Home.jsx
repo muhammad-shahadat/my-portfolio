@@ -224,6 +224,36 @@ const Home = () => {
 
         </section>
 
+        <section id="resume">
+            <div className="resume-container">
+                <div className="resume-left">
+                    <h2>RESUME</h2>
+                </div>
+
+                <div className="resume-right">
+
+                    <ul className="resume-item">
+                        <li className="item-list resume-list">
+                            👁️
+                            <a href="/resume/shahadat_hossain_resume.pdf" target="_blank" className="resume-link view-resume">
+                                View Resume
+                            </a>
+                             
+                        </li>
+                        <li className="resume-list item-list">
+                            📥
+                            <a href="/resume/shahadat_hossain_resume.pdf" className="resume-link download-resume" download="md_shahadat_hossain_resume" rel="noopener noreferrer">  
+                               Download Resume
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>        
+
+            </div>
+
+        </section>
+
         <section id="contacts">
             <div className="contacts-container">
                 <div className="contacts-left">
@@ -250,20 +280,6 @@ const Home = () => {
                             ☎️  
                             <a href="tel:+8801811293727">
                                 Personal: +880 1811-293727
-
-                            </a>
-                        </li>
-                        <li className="item-list resume-list">
-                            👁️
-                            <a href="/resume/shahadat_hossain_resume.pdf" target="_blank" className="resume-link view-resume">
-                                View Resume
-                            </a>
-                             
-                        </li>
-                        <li className="resume-list item-list">
-                            📥
-                            <a href="/resume/shahadat_hossain_resume.pdf" id="resume" className="resume-link download-resume" download="md_shahadat_hossain_resume" rel="noopener noreferrer">  
-                               Download Resume
 
                             </a>
                         </li>
